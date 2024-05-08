@@ -26,3 +26,4 @@ const options = {
   
   cargarDatos()
 
+  alert("hola")
