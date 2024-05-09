@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>LOGIN FORM</h1>
-    <form id="formulario-login">
-        <div class="container">
-            <label for="email"><b>Correo</b></label>
-            <input type="text" placeholder="Ingresa el correo" id="email" required>
-            <br>
-            <label for="password"><b>Contraseña</b></label>
-            <input type="password" placeholder="Ingresa tu contraseña" id="password" required>
-            <br>
-            <button type="submit">Ingresar</button>
-            <br>
-            <a href="/formulario.html">Registrarse</a>
-        </div>
-    </form>
+    <section class="container-form">
+        <form id="formulario-login">
+            <h2>LOGIN FORM</h2>
+            <div class="container">
+                <input class="input-login" type="text" placeholder="Ingresa el correo" id="email" required>
+                <br>
+                <input class="input-login" type="password" placeholder="Ingresa tu contraseña" id="password" required>
+                <br>
+                <button onclick="mostrarData()" class="input-login btn" type="submit">Ingresar</button>
+                <br>
+                <a href="/formulario.html">Registrarse</a>
+            </div>
+        </form>
+    </section>
 
-    <script src="/objetos.js"></script>
+    <script src="loginform.js"></script>
 </body>
 </html>
