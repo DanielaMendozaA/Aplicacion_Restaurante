@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "nombre": "IPA",
+      "descripcion": "Una cerveza de estilo India Pale Ale, con un sabor amargo y afrutado, y un aroma floral.",
+      "tipo": "Ale"
+    },
+    {
+      "id": 2,
+      "nombre": "Stout",
+      "descripcion": "Una cerveza oscura y robusta con sabores a café, chocolate y malta tostada.",
+      "tipo": "Ale"
+    },
+    {
+      "id": 3,
+      "nombre": "Pilsner",
+      "descripcion": "Una cerveza de estilo Pilsner, con un sabor crujiente y refrescante y un aroma a lúpulo.",
+      "tipo": "Lager"
+    },
+    {
+      "id": 4,
+      "nombre": "Wheat Beer",
+      "descripcion": "Una cerveza de trigo, con un sabor suave y afrutado, y un toque de especias.",
+      "tipo": "Ale"
+    },
+    {
+      "id": 5,
+      "nombre": "Amber Ale",
+      "descripcion": "Una cerveza de color ámbar, con un sabor caramelizado y un aroma a caramelo y toffee.",
+      "tipo": "Ale"
+    },
+    {
+      "id": 6,
+      "nombre": "Porter",
+      "descripcion": "Una cerveza oscura y maltosa, con sabores a café, cacao y frutas oscuras.",
+      "tipo": "Ale"
+    },
+    {
+      "id": 7,
+      "nombre": "Saison",
+      "descripcion": "Una cerveza de estilo belga, con un sabor especiado y afrutado, y un final seco.",
+      "tipo": "Ale"
+    },
+    {
+      "id": 8,
+      "nombre": "Lager",
+      "descripcion": "Una cerveza de estilo Lager, con un sabor suave y limpio, y un cuerpo ligero.",
+      "tipo": "Lager"
+    },
+    {
+      "id": 9,
+      "nombre": "Pale Ale",
+      "descripcion": "Una cerveza de estilo Pale Ale, con un sabor equilibrado entre el lúpulo y la malta, y un color dorado.",
+      "tipo": "Ale"
+    },
+    {
+      "id": 10,
+      "nombre": "Hefeweizen",
+      "descripcion": "Una cerveza de trigo alemana, con sabores a plátano y clavo, y una turbidez natural.",
+      "tipo": "Ale"
+    }
+  ]
+  
