@@ -4,11 +4,12 @@
 }
 
 
-video {
-  object-fit: cover; /* Ajusta el video para cubrir completamente el contenedor */
-  z-index: -1; /* Coloca el video detrás del otro contenido */
-} 
+body {
+  background-color: moccasin;
+}
 
-h1 {
+table thead{
+  background-color: #302b63;
   color: white;
 }
+
