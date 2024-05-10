@@ -6,7 +6,7 @@
 .container-form {
 	height: 100vh;
 	width: 100vw;
-	background: url(../img/background-fire.jpg) center no-repeat;
+	background: url(../../img/background-fire.jpg) center no-repeat;
 	background-size: cover;
 	display: flex;
 	justify-content: center;
@@ -17,7 +17,7 @@
 #formulario-login {
 	background-color: rgba(240, 248, 255, 0.062);
 	border-radius: 10px;
-	height: 25vh;
+	height:40%;
 	width: 50vw;
 	display: flex;
 	flex-direction: column;
@@ -46,6 +46,7 @@ h2{
 }
 .btn:hover{
 	background: none;
+	transform: scale(1.1);
 }
 
 .input-login{
@@ -61,5 +62,5 @@ a{
 }
 a:hover{
 	background: linear-gradient(0deg, rgba(0,0,0,0.772128919927346) 0%, rgba(253,187,45,0) 100%);	border: none;
-	
+	transform: scale(1.1);
 }
